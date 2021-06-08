@@ -32,3 +32,12 @@ const removeAllElsewhereLinks = () => {
     elsewhereLinks[2].remove()
 }
 console.log(removeAllElsewhereLinks());
+
+// 15) Write a function to change the column size for heading in jumbotron
+const changeColumnSizeHeadingJumbotron = () => {
+    const getColumnSize = document.querySelector(".jumbotron .col-md-6")
+
+    getColumnSize.classList.remove("col-md-6")
+}
+console.log(changeColumnSizeHeadingJumbotron());
+
