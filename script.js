@@ -14,3 +14,13 @@ const chageTitleColor = () => {
     title.style.color = "purple"
 }
 console.log(chageTitleColor());
+
+// 13) Write a function to change the background of the jumbotron
+const changeJumbotronBg = () => {
+    const jumbotron = document.querySelector(".jumbotron")
+    console.log(jumbotron);
+
+    jumbotron.classList.remove("bg-dark")
+    jumbotron.style.backgroundColor = "#9abeda"
+}
+console.log(changeJumbotronBg());
