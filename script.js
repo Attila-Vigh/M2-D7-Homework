@@ -41,3 +41,10 @@ const changeColumnSizeHeadingJumbotron = () => {
 }
 console.log(changeColumnSizeHeadingJumbotron());
 
+// 16) Write a function to remove the "Search" magnifying glass icon
+const removeSearchIcon = () => {
+    const icon = document.querySelector("a>svg")
+
+    icon.remove()
+}
+console.log(removeSearchIcon());
