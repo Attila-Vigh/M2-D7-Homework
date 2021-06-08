@@ -1,3 +1,8 @@
 .jumbotron h1 {
     background-color: aqua;
 }
+
+nav.nav > * {
+    background-color: rgb(68, 0, 255);
+}
+
