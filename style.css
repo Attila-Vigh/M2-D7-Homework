@@ -19,6 +19,10 @@ nav>a:nth-child(2n) {
 }
 
 div > div.blog-post:last-of-type {
+    background-color: rgb(127, 105, 167);
+}
+
+.list-unstyled.mb-0>li {
     background-color: red;
 }
 
