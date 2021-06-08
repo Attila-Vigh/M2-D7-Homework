@@ -23,6 +23,10 @@ div > div.blog-post:last-of-type {
 }
 
 .list-unstyled.mb-0>li {
+    background-color: rgb(205, 195, 250);
+}
+
+.blog-post:nth-child(3) .blog-post-meta a{
     background-color: red;
 }
 
