@@ -48,3 +48,11 @@ const removeSearchIcon = () => {
     icon.remove()
 }
 console.log(removeSearchIcon());
+
+// 17) Write a function to trim just the first 50 characters in the first paragraph for each blog post
+const trimFirst50CharactersInFirstParagraph = () => {
+    const Ps = document.querySelectorAll(".blog-post-meta + p")
+
+    Ps.forEach( p => p.remove() )
+}
+console.log(trimFirst50CharactersInFirstParagraph());
