@@ -10,5 +10,8 @@ nav.nav > * {
     background-color:red;
 }
 
+div > div.blog-post:nth-child(2) {
+    background-color:red;
+}
 
 
