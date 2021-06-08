@@ -6,3 +6,9 @@ nav.nav > * {
     background-color: rgb(68, 0, 255);
 }
 
+.jumbotron>div>p.lead>a.text-white {
+    background-color:red;
+}
+
+
+
