@@ -24,3 +24,11 @@ const changeJumbotronBg = () => {
     jumbotron.style.backgroundColor = "#9abeda"
 }
 console.log(changeJumbotronBg());
+
+// 14) Write a function to remove all the links under "Elsewhere"
+const removeAllElsewhereLinks = () => {
+    const elsewhereLinks = document.querySelectorAll("ol")
+
+    elsewhereLinks[2].remove()
+}
+console.log(removeAllElsewhereLinks());
